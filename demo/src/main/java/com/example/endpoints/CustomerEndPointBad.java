@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.domain.CustomerHits;
 import com.example.facade.api.CustomerFacade;
-import com.example.service.api.CustomerService;
-import com.example.service.api.HitsService;
 
 @RestController
 @RequestMapping("/multitx")

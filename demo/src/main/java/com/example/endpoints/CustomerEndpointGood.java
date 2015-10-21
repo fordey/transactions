@@ -4,18 +4,14 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.domain.Customer;
 import com.example.domain.CustomerHits;
 import com.example.facade.api.CustomerFacade;
-import com.example.service.api.CustomerService;
-import com.example.service.api.HitsService;
 
 
 @RestController
