@@ -1,0 +1,8 @@
+/workspaces
+generated
+.metadata
+bower_components
+.ignore
+.settings
+target
+data
